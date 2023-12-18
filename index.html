@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwww.zarla.com%2Fimages%2Fzarla-r-1x1-2400x2400-20211123-mmw48kwrjywr87ykmfdy.png%3Fcrop%3D1%3A1%2Csmart%26width%3D250%26dpr%3D2&tbnid=Pw326J-jEJBH1M&vet=12ahUKEwinu7Xy5ZiDAxWMZmwGHbMFCXYQMyg7egUIARCJAg..i&imgrefurl=https%3A%2F%2Fwww.zarla.com%2Fguides%2Fr-logos&docid=M-TgNXzYE6-9pM&w=500&h=500&q=r%20logos&ved=2ahUKEwinu7Xy5ZiDAxWMZmwGHbMFCXYQMyg7egUIARCJAg"/>
 </head>
 <body>
     <center><h2>Create your account</h2></center>
@@ -11,16 +12,19 @@
         <fieldset>
             <legend>Personal Details</legend>
             <label for="fname">First Name</label>
-            <input type="fname" name="fnmae" id="fname" placeholder="first name"/><br><br>
+            <input type="fname" name="fnmae" id="fname" placeholder="first name"/ required><br><br>
             <label for="lname">Last Name</label>
             <input type="lname" name="lname" id="lname" placeholder="last name"/><br><br>
             <label for="dt">Date Of Birth</label>
-            <input type="date" name="dt" id="dt" placeholder="date of birth"/>
+            <input type="date" name="dt" id="dt" placeholder="date of birth"/ required><br><br>
             <label for="mail">Email</label>
-            <input type="email" name="mail" id="mail" placeholder="examle@example.com"/>
+            <input type="email" name="mail" id="mail" placeholder="examle@example.com" required/><br><br>
             <label for="pnum">Phone Number</label>
-            <input type="tel" name="pnum" id="pnum" pattern="[0-9]{10}" placeholder="enter 10 digit mobile number"/>
+            <input type="tel" name="pnum" id="pnum" pattern="[0-9]{10}" placeholder="enter 10 digit mobile number" required/><br><br>
+            <center>
             <button type="submit">verify email and phone number</button>
+            <button fieldaction="">already i have account</button>
+            </center>
         </fieldset>
      </form>
 </body>
